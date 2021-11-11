@@ -8,5 +8,16 @@
 	</head>
 	<body>
 		<div id="svelte">%svelte.body%</div>
+		<noscript>
+	    <style type="text/css">
+	        .pagecontainer {display:none;}
+	    </style>
+	    <div class="noscriptmsg">
+	    You don't have javascript enabled.  Good luck with that.
+	    </div>
+		</noscript>
+		<script>
+			alert('javascript is running');
+		</script>
 	</body>
 </html>
